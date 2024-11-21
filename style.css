@@ -4,6 +4,7 @@
     --black: #131313;
     --bg: #010103;
     --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+    --white: #fff;
 }
 
 * {
@@ -68,7 +69,7 @@ section {
 .header section nav a {
     margin: 0 1rem;
     font-size: 1.8rem;
-    color: white;
+    color: var(--white);
     transition: 0.4s linear;
 }
 
@@ -89,16 +90,36 @@ section {
 }
 
 .principal-box div h3{
-    color: #fff;
+    color: var(--white);
     font-size: 6rem;
     text-transform: uppercase;
    
 }
 
 .principal-box div p{
-    color: #fff;
+    color: var(--white);
     font-size: 2rem;
     font-weight: lighter;
     padding: 1rem 0;
     line-height: 1.8;
 }
+
+.principal-box div a{
+    background-color: var(--main-color);
+    cursor: pointer;
+    margin-top: 2rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: var(--white);
+    padding: 1rem 3rem;
+    border: none;
+}
+
+.principal-box div a:hover{
+    letter-spacing: 0.1rem;
+    transition: 0.4s linear;
+}
+/*
+31:18
+*/
+
